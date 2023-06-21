@@ -1,0 +1,157 @@
+        /* Style for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Style for the container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        /* Style for the headings */
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+        }
+
+        /* Style for the paragraphs */
+        p {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        /* Style for the labels */
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        /* Style for the select dropdown */
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 20px;
+            padding-right: 30px;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            font-size: 16px;
+        }
+
+        /* Style for the buttons */
+        button {
+            background-color: #1a8ddb;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Style for the error messages */
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the success messages */
+        .success {
+            color: green;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the links */
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover style for the links */
+        a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Style for the profile section */
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        /* Style for the profile image */
+        .profile img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        /* Style for the profile details */
+        .profile-details {
+            flex: 1;
+        }
+
+        /* Style for the profile heading */
+        .profile h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the profile subheading */
+        .profile h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the profile label */
+        .profile label {
+            font-weight: bold;
+        }
+
+        /* Style for the profile data */
+        .profile-data {
+            margin-bottom: 20px;
+        }
+
+        /* Style for the profile button */
+        .profile button {
+            margin-top: 20px;
+        }
+
+        .verified {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
